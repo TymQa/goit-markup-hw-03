@@ -37,6 +37,8 @@ span {
     text-decoration: none;
 }
 
+/* header */
+
 .header-list {
 
 }
@@ -71,6 +73,8 @@ span {
 .header-contact-item:is(:hover, :focus) {
     color: var(--color-background-btn);
 }
+
+/* header */
 
 /* Order */
 
