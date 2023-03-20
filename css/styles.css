@@ -32,6 +32,11 @@ body {
     margin-right: auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 ul, li, h3, h2, p{
     margin: 0;
     padding: 0;
@@ -179,8 +184,7 @@ span {
 /* features */
 
 .features {
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 .hidden-title {
@@ -218,8 +222,6 @@ span {
 /* about */
 
 .about {
-
-    padding-bottom: 120px;
 }
 
 .about-title {
@@ -251,8 +253,6 @@ span {
 
 .team {
     background-color: var(--color-cloud);
-    padding-bottom: 120px;
-    padding-top: 120px;
 }
 
 .team-title {
