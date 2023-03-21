@@ -192,14 +192,15 @@ span {
 
 .features-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .features-item {
-    
+    max-width: 264px;
 }
 
 .features-item:not(:last-child) {
-    margin-right: 24px;
+    
 }
 
 .features-subtitle {
@@ -215,7 +216,7 @@ span {
 }
 
 .features-item-text {
-    max-width: 264px;
+    max-height: 72px;
 
     font-size: 16px;
     line-height: 1.5;
@@ -401,15 +402,27 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 72px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 .portfolio-item {
-    width: 360px;
     margin-bottom: 48px;
-    margin-right: 24px;
+}
+
+
+.portfolio-item:nth-child(7) {
+    margin-bottom: 0;
+}
+
+.portfolio-item:nth-child(8) {
+    margin-bottom: 0;
+}
+
+.portfolio-item:nth-child(9) {
+    margin-bottom: 0;
 }
 
 .portfolio-item:nth-child(3) {
@@ -450,7 +463,6 @@ border-radius: 0px 0px 4px 4px;
 
 
 .portfolio-link {
-
 }
 
 .portfolio-item-text {
