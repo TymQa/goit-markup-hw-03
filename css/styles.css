@@ -471,5 +471,6 @@ border-radius: 0px 0px 4px 4px;
 .portfolio-item-text {
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
 }
 /* portfolio */
