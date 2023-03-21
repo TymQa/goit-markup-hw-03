@@ -192,7 +192,6 @@ span {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
 }
 
 .features-item {
@@ -200,7 +199,7 @@ span {
 }
 
 .features-item:not(:last-child) {
-    
+    margin-right: 24px;
 }
 
 .features-subtitle {
